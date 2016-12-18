@@ -1,0 +1,93 @@
+
+  <!--center-->
+
+    <div class="container">
+
+      <div class="row">
+
+          <h1 >Nội dung tin đăng</h1>
+
+          <div class="form-horizontal">
+            <hr>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Category">Loại Thiết Bị</label>
+                
+                <div class="col-md-10">
+                  <select name="Category" id="Category" class="form-control input-validation-error btn-default" data-val-required="The Categories field is required." data-val="true">
+                    <option value="">Loại Thiết Bị...</option>
+                    <option value="Đồ điện tử">Đồ điện tử</option>
+                    <option value="Điện thoại di động">Điện thoại di động</option>
+                    <option value="Máy tính bảng">Máy tính bảng</option>
+                    <option value="Máy tính">Máy tính</option>    
+                    <option value="Laptop">Laptop</option>
+                    <option value="Tivi">Tivi</option>
+                    <option value="Loa">Loa</option>
+                    <option value="Amply">Amply</option>
+                    <option value="Máy nghe nhạc">Máy nghe nhạc</option>
+                    <option value="Phụ kiện, Linh kiện">Phụ kiện, Linh kiện</option>
+                    <option value="Quần áo">Quần áo</option>
+                    <option value="Giày dép">Giày dép</option>
+                    <option value="Túi xách">Túi xách</option>
+                    <option value="Phụ kiện">Phụ kiện</option>
+                    <option value="Xe đạp">Xe đạp</option>
+                    <option value="Xe máy">Xe máy</option>
+                    <option value="Xe ô tô">Xe ô tô</option>
+                    <option value="Xe tải">Xe tải</option>
+                    <option value="Các loại xe khác">Các loại xe khác</option>
+                    <option value="Phụ tùng xe">Phụ tùng xe</option>
+                  </select>
+
+                  <span class="field-validation-valid text-danger" data-valmsg-for="Category" data-valmsg-replace="false">Vui lòng chọn loại sản phẩm.</span>
+                </div>
+            </div><!--/form-group-->
+
+            <div class="form-group">
+              <label class="control-label col-md-2" for="Title">Tiêu Đề</label>
+              <div class="col-md-10">
+                  <input class="form-control text-box single-line" data-val="true" data-val-required="The Tiêu Đề field is required." id="Title" name="Title" placeholder="Tên sản phẩm cần bán" type="text" value="">
+                  <span class="field-validation-valid text-danger" data-valmsg-for="Title" data-valmsg-replace="false">Vui lòng nhập tiêu đề.</span>
+              </div>
+            </div><!--/form-group-->
+
+            <div class="form-group">
+              <label class="control-label col-md-2" for="Description">Mô Tả</label>
+              <div class="col-md-10">
+                  
+                <textarea class="form-control" cols="1" data-val="true" data-val-required="The Mô Tả field is required." id="Description" name="Description" placeholder="Mô tả thêm về sản phẩm. Độ mới, tình trạng sản phẩm, phụ kiện đi kèm, chế độ bảo hành nếu có. Càng chi tiết càng tốt nhé" rows="8"></textarea>
+                <span class="field-validation-valid text-danger" data-valmsg-for="Description" data-valmsg-replace="false">Vui lòng mô tả thêm về sản phẩm.</span>
+              </div>
+            </div><!--/form-group-->
+
+            <div class="form-group">
+              <label class="control-label col-md-2" for="Contact">Thông Tin Liên Hệ</label>
+              <div class="col-md-10">
+                  <textarea class="form-control" cols="1" data-val="true" data-val-required="The Thông Tin Liên Hệ field is required." id="Contact" name="Contact" placeholder="Số điện thoại, người bán, địa chỉ liên hệ" rows="2"></textarea>
+                  <span class="field-validation-valid text-danger" data-valmsg-for="Contact" data-valmsg-replace="false">Vui lòng nhập thông tin liên hệ.</span>
+              </div>
+            </div><!--/form-group-->
+
+            <div class="form-group">
+              <label class="control-label col-md-2" for="Price">Giá</label>
+              <div class="col-md-10">
+                  <input class="form-control text-box single-line" data-val="true" data-val-number="The field Giá must be a number." data-val-required="The Giá field is required." id="Price" name="Price" placeholder="Vui lòng nhập số, không nhập chữ. Nhập 0 nếu để giá thỏa thuận" type="text" value="">
+                  <span class="field-validation-valid text-danger" data-valmsg-for="Price" data-valmsg-replace="false">Vui lòng nhập giá sản phẩm.</span>
+              </div>
+            </div><!--/form-group-->
+
+            <div class="form-group">
+              <label class="control-label col-md-2" for="ImageLink1">Hình Sản Phẩm </label>
+              <div class="col-md-10">
+                <input type="file" name="uploadImage1" id="ImageLink1">
+              </div>
+            </div><!--/form-group-->
+
+          
+
+            <div class="form-group login">
+              <div>
+                  <input type="submit" value="Đăng Tin" class="btn btn-danger form-control">
+              </div>
+            </div><!--/form-group-->
+            
+          </div><!--/form-horizontal-->

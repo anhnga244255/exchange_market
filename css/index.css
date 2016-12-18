@@ -1,0 +1,80 @@
+*{
+	list-style-type: none;
+}
+
+a{
+
+}
+/*Menu*/
+
+.navbar .container .navbar-brand{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: : 50px;
+	color: #fff;
+}
+
+.navbar .container .navbar-nav .active{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+.navbar .container .navbar-nav .active a{
+	color: #fff;
+	background-color: #ff0040;
+}
+
+.navbar .container .navbar-nav .right{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar .container .navbar-nav .right a{
+	color: #fff;
+	background-color: #FFBF00;
+}
+
+.media{
+	border: 1px solid #eee
+}
+
+.media .media-body ul li a{
+	color: #000
+}
+
+.media .media-middle img{
+	width: 300px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+
+.media .media-phone img{
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 50px
+}
+.media .media-body h2,.media .media-body ul li  {
+	margin-top: 10px
+}
+.media .media-body-phone h2,.media .media-body-phone ul li  {
+	margin-left: 50px;
+	margin-top: 10px
+}
+/*Search*/
+.input-group>.input-group-btn>button:focus,
+.input-group>.input-group-btn>button:hover{
+  text-decoration: none;
+  color:#ff0040
+}
+
+.input-group>.input-group-btn>button:focus,
+.input-group>.input-group-btn>button:hover{
+  text-decoration: none;
+  color:#ff0040;
+  background-color: #191919
+}
