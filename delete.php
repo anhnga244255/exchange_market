@@ -2,7 +2,7 @@
 error_reporting(2048);
 header('Content-Type: text/html;charset=UTF-8');
 require_once("config.php");
-require_once("model/model.php");
+require_once("model.php");
 if ($_GET['pk']) {
 	$table = "products";
 	$where = "ID = ".$_GET['pk'];
