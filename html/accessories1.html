@@ -1,4 +1,129 @@
-<!--main-->
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://localhost/exchange_market/accessories1.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại</title>
+
+    <!-- Bootstrap & css-->
+    <link href="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/index.css" rel="stylesheet">
+    <link href="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/post.css" rel="stylesheet">
+    <link href="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/dashboard.css" rel="stylesheet">
+
+    <!--ajax-->
+
+    <script type="text/javascript" src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/jquery.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      #left-sidebar, #main-content {
+        height: 500px;
+        border: 1px solid red;
+        margin-bottom: 50px;
+      }
+
+      #footer {
+        text-align: center;
+        margin-bottom: 0px
+      }
+    </style>
+
+  </head>
+
+  <body> <!--menu-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+      <div class="container">
+
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="http://localhost/exchange_market/index.php">Chợ trao đổi</a>
+
+          </div><!--/.navbar-header-->
+
+          <div id="navbar" class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="http://localhost/exchange_market/index.php">
+                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 
+                  Tìm kiếm
+                </a>
+              </li>
+              
+			  <li><a href="http://localhost/exchange_market/login.php">Đăng nhập</a></li>          
+              <li class="post">
+                <a href="http://localhost/exchange_market/post.php">
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> 
+                  Đăng tin miễn phí
+                </a>
+              </li>
+            </ul>
+
+          </div> <!--/.navbar-collapse .collapse-->
+
+        </div><!--/.container-fluid-->
+
+      </div><!--/.container-->
+
+    </nav>    <div class="container-fluid">
+
+      <div class="row">
+       <!--sidebar-->
+
+        <div class="col-sm-3 col-md-2 sidebar">
+
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="http://localhost/exchange_market/index.php">Mua</a></li>
+            <li role="presentation"><a href="http://localhost/exchange_market/post.php">Bán</a></li>
+          </ul>
+
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="http://localhost/exchange_market/electronic.php"><span class="glyphicon glyphicon-record" aria-hidden="true"></span> Đồ điện tử <span class="sr-only">(current)</span></a></li>
+            <li><a href="http://localhost/exchange_market/phone.php">Điện thoại di động</a></li>
+            <li><a href="http://localhost/exchange_market/tablet.php">Máy tính bảng</a></li>
+            <li><a href="http://localhost/exchange_market/computer.php">Máy tính, Laptop</a></li>
+            <li><a href="http://localhost/exchange_market/television.php">Tivi</a></li>
+            <li><a href="http://localhost/exchange_market/amply.php">Loa, Amply</a></li>
+            <li><a href="http://localhost/exchange_market/player.php">Máy nghe nhạc</a></li>
+            <li><a href="http://localhost/exchange_market/accessories.php">Phụ kiện, Linh kiện</a></li>
+          </ul>
+
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="http://localhost/exchange_market/fashion.php"><span class="glyphicon glyphicon-record" aria-hidden="true"></span> Thời trang<span class="sr-only">(current)</span></a></li>
+            <li><a href="http://localhost/exchange_market/clothes.php">Quần áo, Váy đầm</a></li>
+            <li><a href="http://localhost/exchange_market/footwear.php">Giày dép</a></li>
+            <li><a href="http://localhost/exchange_market/carpetbagger.php">Túi xách, Ba lô</a></li>
+            <li><a href="http://localhost/exchange_market/jewelry.php">Phụ kiện</a></li>
+          </ul>
+
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="http://localhost/exchange_market/transport.php"><span class="glyphicon glyphicon-record" aria-hidden="true"></span> Phương tiện giao thông <span class="sr-only">(current)</span></a></li>
+            <li><a href="http://localhost/exchange_market/bike.php">Xe đạp</a></li>
+            <li><a href="http://localhost/exchange_market/motorbike.php">Xe máy</a></li>
+            <li><a href="http://localhost/exchange_market/accessories1.php">Phụ tùng xe</a></li>
+          </ul>
+
+        </div><!--/.sidebar--><!--main-->
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
@@ -9,18 +134,18 @@
           <div class="media sub-header">
 
             <div class=" media-left media-middle media-phone">
-              <a href="#">
-                <img class="media-object" src="img/transport/accessories/c.jpg" alt="...">
+              <a href="http://localhost/exchange_market/accessories1.php#">
+                <img class="media-object" src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/c.jpg" alt="...">
               </a>
             </div>
 
             <div class=" media-body media-body-phone">
-              <h2 class="media-heading">Apple iPhone 4 16GB White (Bản quốc tế) - used</h2>
+              <h2 class="media-heading">Camera hành trình fullHD</h2>
               <ul>
-                <li><a href="#">Ngày đăng: 1/12/2016</a></li>
-                <li><a href="#">Loại: Phụ tùng xe</a></li>
-                <li><a href="#">Giá: 1.730.000 VNĐ</a></li>
-                <li><a href="#">Mô tả:</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Ngày đăng: 1/12/2016</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Loại: Phụ tùng xe</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Giá: 1.730.000 VNĐ</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Mô tả:</a></li>
               </ul>
             </div>
 
@@ -29,18 +154,18 @@
            <div class="media sub-header">
 
             <div class=" media-left media-middle media-phone">
-              <a href="#">
-                <img class="media-object" src="img/transport/accessories/d.jpg" alt="...">
+              <a href="http://localhost/exchange_market/accessories1.php#">
+                <img class="media-object" src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/d.jpg" alt="...">
               </a>
             </div>
 
             <div class=" media-body media-body-phone">
-              <h2 class="media-heading">Apple iPhone 4 16GB White (Bản quốc tế) - used</h2>
+              <h2 class="media-heading">Camera hành trình</h2>
               <ul>
-                <li><a href="#">Ngày đăng: 1/12/2016</a></li>
-                <li><a href="#">Loại: Phụ tùng xe</a></li>
-                <li><a href="#">Giá: 1.730.000 VNĐ</a></li>
-                <li><a href="#">Mô tả:</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Ngày đăng: 1/12/2016</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Loại: Phụ tùng xe</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Giá: 1.730.000 VNĐ</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Mô tả:</a></li>
               </ul>
             </div>
 
@@ -49,18 +174,18 @@
            <div class="media sub-header">
 
             <div class=" media-left media-middle media-phone">
-              <a href="#">
-                <img class="media-object" src="img/transport/accessories/c1.jpg" alt="...">
+              <a href="http://localhost/exchange_market/accessories1.php#">
+                <img class="media-object" src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/c1.jpg" alt="...">
               </a>
             </div>
 
             <div class=" media-body media-body-phone">
-              <h2 class="media-heading">Apple iPhone 4 16GB White (Bản quốc tế) - used</h2>
+              <h2 class="media-heading">Camera hành trình nhập khẩu</h2>
               <ul>
-                <li><a href="#">Ngày đăng: 1/12/2016</a></li>
-                <li><a href="#">Loại: Phụ tùng xe</a></li>
-                <li><a href="#">Giá: 1.730.000 VNĐ</a></li>
-                <li><a href="#">Mô tả:</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Ngày đăng: 1/12/2016</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Loại: Phụ tùng xe</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Giá: 1.730.000 VNĐ</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Mô tả:</a></li>
               </ul>
             </div>
 
@@ -69,18 +194,18 @@
            <div class="media sub-header">
 
             <div class=" media-left media-middle media-phone">
-              <a href="#">
-                <img class="media-object" src="img/transport/accessories/v.jpg" alt="...">
+              <a href="http://localhost/exchange_market/accessories1.php#">
+                <img class="media-object" src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/v.jpg" alt="...">
               </a>
             </div>
 
             <div class=" media-body media-body-phone">
               <h2 class="media-heading">Apple iPhone 4 16GB White (Bản quốc tế) - used</h2>
               <ul>
-                <li><a href="#">Ngày đăng: 1/12/2016</a></li>
-                <li><a href="#">Loại: Phụ tùng xe</a></li>
-                <li><a href="#">Giá: 1.730.000 VNĐ</a></li>
-                <li><a href="#">Mô tả:</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Ngày đăng: 1/12/2016</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Loại: Phụ tùng xe</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Giá: 1.730.000 VNĐ</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Mô tả:</a></li>
               </ul>
             </div>
 
@@ -89,18 +214,18 @@
            <div class="media sub-header">
 
             <div class=" media-left media-middle media-phone">
-              <a href="#">
-                <img class="media-object" src="img/transport/accessories/k.jpg" alt="...">
+              <a href="http://localhost/exchange_market/accessories1.php#">
+                <img class="media-object" src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/k.jpg" alt="...">
               </a>
             </div>
 
             <div class=" media-body media-body-phone">
               <h2 class="media-heading">Apple iPhone 4 16GB White (Bản quốc tế) - used</h2>
               <ul>
-                <li><a href="#">Ngày đăng: 1/12/2016</a></li>
-                <li><a href="#">Loại: Phụ tùng xe</a></li>
-                <li><a href="#">Giá: 1.730.000 VNĐ</a></li>
-                <li><a href="#">Mô tả:</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Ngày đăng: 1/12/2016</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Loại: Phụ tùng xe</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Giá: 1.730.000 VNĐ</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Mô tả:</a></li>
               </ul>
             </div>
 
@@ -109,21 +234,42 @@
            <div class="media sub-header">
 
             <div class=" media-left media-middle media-phone">
-              <a href="#">
-                <img class="media-object" src="img/transport/accessories/v1.jpg" alt="...">
+              <a href="http://localhost/exchange_market/accessories1.php#">
+                <img class="media-object" src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/v1.jpg" alt="...">
               </a>
             </div>
 
             <div class=" media-body media-body-phone">
               <h2 class="media-heading">Apple iPhone 4 16GB White (Bản quốc tế) - used</h2>
               <ul>
-                <li><a href="#">Ngày đăng: 1/12/2016</a></li>
-                <li><a href="#">Loại: Phụ tùng xe</a></li>
-                <li><a href="#">Giá: 1.730.000 VNĐ</a></li>
-                <li><a href="#">Mô tả:</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Ngày đăng: 1/12/2016</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Loại: Phụ tùng xe</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Giá: 1.730.000 VNĐ</a></li>
+                <li><a href="http://localhost/exchange_market/accessories1.php#">Mô tả:</a></li>
               </ul>
             </div>
 
           </div><!--/media-->
 
-        </div><!--/main-->
+        </div><!--/main--></div><!--/row-->
+
+    </div><!--/container-fluid |/container-->
+
+    <div id="footer">
+            <div class="container-fluid">
+              <ul><li><a href="http://localhost/exchange_market/index.php">@Chợ trao đổi</a></li></ul>
+            </div><!--/container-->
+          </div><!--/footer-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/jquery.min(1).js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./Chợ trao đổi - đồ điện tử, thời trang, phương tiện đi lại_files/ie10-viewport-bug-workaround.js"></script>
+  
+<div class="corom-element" style="position: absolute; top: 0px; left: 0px; right: 0px; height: 0px; margin: 0px; text-align: left; z-index: 2147483647; pointer-events: none; border: none;"></div></body></html>
